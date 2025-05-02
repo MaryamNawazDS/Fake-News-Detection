@@ -1,3 +1,38 @@
 # Fake-News-Detection
+# 📰 Fake News Detection Using Naive Bayes
 
-The objective of this project is to identify fake news from real news articles. We'll analyze the sentiment of various sources like tweets, speeches, reviews, and blogs, and classify news stories as either genuine or fake. To achieve this, we've utilized two methods: Boolean Naive Bayes and Multinomial Naive Bayes. We trained a classifier using a provided dataset, and we've also preprocessed the data to handle negations. Additionally, we experimented with including and excluding stop words. In testing, we evaluated the classifiers' performance using measures such as Accuracy, Precision, Recall, and F1 score.
+## 📖 Overview
+
+This project presents a machine learning solution for detecting **fake news articles** using **Naive Bayes classifiers**. With the explosion of digital content, distinguishing real from fake news has become critical. We leverage **Natural Language Processing (NLP)** techniques to preprocess and classify text data from sources like **tweets, blogs, speeches, and reviews**.
+
+---
+
+## 🎯 Objective
+
+To build an NLP pipeline that can classify news content as either **real or fake**, utilizing:
+- **Boolean Naive Bayes**
+- **Multinomial Naive Bayes**
+
+---
+
+## 🧠 Key Features
+
+- Custom text cleaning with **negation handling**
+- Comparison of model performance with and without **stop word removal**
+- Evaluation using **Accuracy, Precision, Recall, and F1 Score**
+- Clear visualizations to support insights
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Python
+- **Libraries**: pandas, numpy, scikit-learn, nltk
+- **Models**: Naive Bayes Classifiers (Boolean & Multinomial)
+- **NLP Techniques**: Tokenization, Stop Word Filtering, Negation Handling, Bag-of-Words
+
+---
+
+
+
+
